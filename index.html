@@ -3,91 +3,176 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lock In - Stay Focused, Stay Fresh</title>
+  <title>Lock In – Routine Tracker</title>
   <style>
     body {
-      background-color: #0f0f0f;
-      color: #fff;
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
+      background: #0f0f0f;
+      color: #ffffff;
     }
     header {
-      background: #000;
-      padding: 1rem;
+      background-color: #1e1e1e;
+      padding: 20px;
       text-align: center;
-      font-size: 2rem;
-      font-weight: bold;
-      border-bottom: 2px solid #fff;
+      border-bottom: 3px solid #ff6b00;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #ff6b00;
     }
     section {
-      padding: 2rem;
+      padding: 20px;
+      border-bottom: 1px solid #333;
     }
     h2 {
-      color: #00ff88;
-      border-bottom: 1px solid #444;
-      padding-bottom: 0.5rem;
+      color: #ff9f00;
     }
     ul {
-      list-style: none;
+      list-style-type: none;
       padding-left: 0;
     }
     li::before {
-      content: '✔';
-      margin-right: 0.5rem;
-      color: #00ff88;
+      content: '✔️';
+      margin-right: 8px;
     }
-    .routine {
-      margin-bottom: 3rem;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #555;
+      padding: 8px;
+      text-align: center;
+    }
+    footer {
+      background-color: #1e1e1e;
+      text-align: center;
+      padding: 20px;
+    }
+    .socials a {
+      display: block;
+      margin: 6px 0;
+      color: #ffffff;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
   <header>
-    LOCK IN - NO DISTRACTIONS
+    <h1>LOCK IN 🔒</h1>
+    <p>Summer • School • Holiday — Discipline All Year</p>
   </header>
-  <section class="routine">
-    <h2>🔥 Summer Routine</h2>
+
+  <section>
+    <h2>🌅 Summer Routine</h2>
+    <h3>Morning Reset (8:00 AM – 10:00 AM)</h3>
     <ul>
-      <li>Wake up by 8:00 AM</li>
-      <li>Make bed + open blinds</li>
-      <li>Wash face, brush teeth</li>
-      <li>Stretch / light movement</li>
-      <li>Eat breakfast (clean bulk)</li>
-      <li>Work on goals (coding, fitness, reading)</li>
-      <li>Document glow-up progress</li>
-      <li>Content creation (edit/post)</li>
-      <li>Chill with purpose</li>
-      <li>No NSFW. No distractions. Stay locked in.</li>
+      <li>Make your bed</li>
+      <li>Cold water face splash</li>
+      <li>Brush teeth & clean face</li>
+      <li>Drink water</li>
+      <li>Stretch + workout</li>
+      <li>Cool shower + outfit</li>
+      <li>Balanced breakfast</li>
+    </ul>
+    <h3>Midday (11:00 AM – 3:00 PM)</h3>
+    <ul>
+      <li>Physical activity</li>
+      <li>Summer reading</li>
+      <li>Skill learning</li>
+      <li>Connect with friends</li>
+      <li>Healthy lunch</li>
+      <li>Recreational screen time (1 hr max)</li>
+    </ul>
+    <h3>Evening (4:00 PM – 7:00 PM)</h3>
+    <ul>
+      <li>Optional evening workout</li>
+      <li>Wash up + rinse</li>
+      <li>Help with chores</li>
+      <li>Journal or family time</li>
+    </ul>
+    <h3>Night Wind Down (8:00 PM – 10:30 PM)</h3>
+    <ul>
+      <li>Evening walk</li>
+      <li>Limit screen time</li>
+      <li>Shower + gratitude journal</li>
+      <li>Lights out by 10:30 PM</li>
     </ul>
   </section>
-  <section class="routine">
+
+  <section>
     <h2>📚 School Routine</h2>
+    <h3>Before School</h3>
     <ul>
-      <li>Wake up early (6:30–7:00 AM)</li>
-      <li>Get ready + outfit clean + black aesthetic</li>
-      <li>Eat breakfast, bring essentials (sanitizer, organizer, etc)</li>
-      <li>Lock in at school — no wasting time</li>
-      <li>Track classes & homework in Notion</li>
-      <li>After school: snack, relax 30 min</li>
-      <li>Homework or review, even just 20 min</li>
-      <li>Content time or personal growth</li>
-      <li>Sleep by 10:00 PM or earlier</li>
+      <li>Wake up at 6:30 AM</li>
+      <li>Brush, clean face, hydrate</li>
+      <li>Pack lunch/snack</li>
+      <li>Outfit & review school notes</li>
+    </ul>
+    <h3>After School</h3>
+    <ul>
+      <li>Unpack and clean up</li>
+      <li>Homework (start by 4 PM)</li>
+      <li>Break + healthy snack</li>
+      <li>Review goals or projects</li>
+    </ul>
+    <h3>Night Routine</h3>
+    <ul>
+      <li>Limit phone after 9 PM</li>
+      <li>School prep for next day</li>
+      <li>Shower + skincare</li>
+      <li>Sleep by 10 PM</li>
     </ul>
   </section>
-  <section class="routine">
+
+  <section>
     <h2>🎄 Holiday Routine</h2>
+    <h3>Morning</h3>
     <ul>
-      <li>Wake up chill — but before 10:00 AM</li>
-      <li>Still do reset: bed, wash face, brush teeth</li>
-      <li>Small goal: read, code, or do 25 pushups</li>
-      <li>Clean room or space — just one corner</li>
-      <li>Watch something motivational or inspiring</li>
-      <li>Write in journal or Notion</li>
-      <li>Plan something for tomorrow</li>
-      <li>Post to Pinterest/YouTube (if it fits)</li>
-      <li>End with peace — no doomscrolling</li>
+      <li>Wake by 9:00 AM</li>
+      <li>Drink water + stretch</li>
+      <li>Holiday breakfast</li>
+      <li>Plan fun/family activity</li>
+    </ul>
+    <h3>Daytime</h3>
+    <ul>
+      <li>Chill day — play games, relax</li>
+      <li>Journal thoughts or gratitude</li>
+      <li>Post or edit content</li>
+      <li>Short walk or movement</li>
+    </ul>
+    <h3>Evening</h3>
+    <ul>
+      <li>Family movie or dinner</li>
+      <li>Hot shower</li>
+      <li>Lights out by 11 PM</li>
     </ul>
   </section>
+
+  <section>
+    <h2>🔗 Socials</h2>
+    <p><strong>🎮 Jamestoofresh — All My Links</strong></p>
+    <p>📞 One name. All platforms. Same energy.</p>
+    <div class="socials">
+      <a href="https://www.youtube.com/@jameswaytoofresh">🔴 YouTube</a>
+      <a href="https://www.twitch.tv/jamestoofresh">🟣 Twitch</a>
+      <a href="https://x.com/jamestoofresh">🔵 X (Twitter)</a>
+      <a href="https://www.instagram.com/jamestoofreshfr">📸 Instagram</a>
+      <a href="https://www.tiktok.com/@james2freshfr">🎵 TikTok</a>
+      <a href="https://kick.com/jamestoofreshfr">🟢 Kick</a>
+      <a href="https://www.reddit.com/user/jamestoofresh">👽 Reddit</a>
+      <a href="https://www.pinterest.com/jamestoofresh">📌 Pinterest</a>
+      <a href="https://www.threads.com/@jamestoofreshfr">🧵 Threads</a>
+      <a href="https://solo.to/jamestoofresh">🔗 Link Hub (solo.to)</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Built by James • Age 13 • Always Locked In 🔒</p>
+  </footer>
 </body>
 </html>
